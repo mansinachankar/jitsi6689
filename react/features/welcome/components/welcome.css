@@ -1,0 +1,95 @@
+  /* CONFERENCES */
+
+  .based-on-title {
+    font-size: 14px;
+    color: #1e5aa4 !important;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .counter {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .square {
+    padding: 0 0.95rem;
+    border-radius: 8px;
+    color: white;
+    border: solid 3px white;
+    margin: 1%;
+    background-color: #d5e5ff;
+  }
+  
+  .content {
+    color: #1e5aa4 !important;
+    text-align: center;
+    font-family: inherit;
+  }
+  
+  .count {
+    font-size: 75.25px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: -14px;
+  }
+  
+  .display-text {
+    font-size: 10px;
+    margin-bottom: 8px;
+  }
+  
+  .count-timestamp {
+    margin-top: 0.5em;
+    font-size: 13px;
+    color: #1e5aa4 !important;
+    text-align: center;
+  }
+  /* FOOTER */
+ .footer{
+     display: flex;
+     width: 100%;
+     justify-content: space-between;
+     /* justify content: space-between;
+     align-item: centre; */
+   }
+   .recommendation p{
+     cursor: pointer;
+     display: inline-block;
+     align-content: flex-start;
+     
+   }
+   #image{
+       width: 28px;
+       padding: 0;
+       display: inline;
+       cursor: pointer;
+   }
+   #display_recommendations{
+     display:none;
+   }
+   #copyright{
+     display:none;
+   }
+   #display_copyrights{
+     display:none;
+   }
+   .show{
+     display: block !important;
+   }
+   .info-logo{
+    background-image: url(/images/info.png);
+     width: 20px;
+     height: 20px;
+     background-size: contain;
+     display: inline-block;
+     vertical-align: sub;
+     margin-right: 3px;
+   }
+   .welcome .welcome-watermark .watermark.leftwatermark {
+    /* width: 71px;
+    height: 32px; */
+    width: 200px;
+    height: 45px;
+  }
